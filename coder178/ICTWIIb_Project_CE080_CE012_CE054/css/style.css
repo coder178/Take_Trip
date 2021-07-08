@@ -1,0 +1,206 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url("https://wallpaperaccess.com/full/2754956.jpg");
+    background-size: cover; 
+    
+}
+
+.form-box{
+    width: 500px;
+    height: 600px;
+    position: relative;
+    margin: 6% auto;
+    background-color: rgb(0,0,0,0.7);
+    border-radius: 9px;
+    padding: 5px;
+}
+.top{
+    margin-left: 98px;
+}
+.form-box .toggle-btn{
+    margin: 30px auto;
+    
+    cursor: pointer;
+    background: transparent;
+    border: 2px;
+    outline: none;
+    position: relative;
+    font-size: 25px;
+    border-radius: 30px;  
+    background: blanchedalmond;
+    width: 150px;
+    height: 50px;
+}
+.container{
+    display: flex;
+     justify-content: center;
+     flex-direction: column;
+     align-items: center;
+     
+ }
+.sign-up{
+     margin-top: 0px;
+     text-align: center;
+ }
+.input{
+     display: block;
+     width: 350px;
+     height: 35px;
+     margin: 20px;
+     font-size: 20px;
+     border-bottom: 2px solid black;
+     background: white;
+     color:black;
+     font-weight: 200;
+     border-radius: 9px;
+}
+.form p{
+     font-size: 20px;
+     color: wheat;
+     margin-top: 20px;
+ }
+ .form p a{
+    font-size: 20px;
+    color: wheat;
+ }
+.form .btn{
+     width: 200px;
+     height: 40px;
+     font-size: 21px;
+     background-color: rgba(26,141, 232, 0.633);
+     border: none;
+     border-radius: 20px;
+     color: white;
+    
+     letter-spacing: 0.1rem;
+ }
+.form .btn:hover{
+     background-color: rgb(18, 144, 194);
+     color: snow;
+     
+ }
+.sign-up h1{
+    font-family: 'Roboto Mono', monospace;
+     font-weight: 800;
+     margin-bottom: 30px;
+     letter-spacing: 0.2rem;
+     font-size: 30px;
+     color: white;
+     
+ }
+ ::placeholder{
+     color: black;
+ }
+ .login{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    color: white; 
+}
+
+.login :focus {
+    background-color:lightblue;
+  }
+
+.login h1{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 800;
+    margin-bottom: 30px;
+    letter-spacing: 0.2rem;
+    color: white;
+}
+.login p a{
+    font-size: 20px;
+    color: red; 
+    margin-left: 30px;
+}
+
+.login .input2{
+    display: block;
+     width: 350px;
+     height: 35px;
+     margin: 20px;
+     font-size: 20px;
+     border-bottom: 2px solid black;
+     background: white;
+     color:black;
+     font-weight: 200;
+     border-radius: 9px;
+
+}
+.login button{
+    width: 200px;
+    height: 40px;
+    font-size: 21px;
+    background-color: rgba(26,141, 232, 0.633);
+    border: none;
+    border-radius: 20px;
+    color: white;
+    /* margin-top: 30px; */
+    letter-spacing: 0.1rem;
+}
+
+.login button:hover{
+    background-color: rgb(18, 144, 194);
+     color: snow;
+}
+#message {
+    display: none;
+    background: #f1f1f1;
+    color: black;
+    position: relative;
+    padding: 10px;
+    margin-left: 13px;
+    margin-top: 1px;
+    width: 370px;
+}
+#message h3 {
+    font-size: 20px;
+    color: red;
+}
+#message p {
+    padding: 0px 25px;
+    font-size: 15px;
+    color: black;
+}
+
+.valid {
+    color: green;
+}
+
+.valid::before {
+    position: relative;
+    left: -25px;
+    content: "✔";
+}
+
+.invalid {
+    color: red;
+}
+
+.invalid::before {
+    position: relative;
+    left: -25px;
+    content: "✖";
+}
+.form .validations h3,p{
+    color: black;
+    font-size: 15px;
+}
+
+.thanks .btn:hover{
+    color: #dc3545;
+    border: 2px solid #dc3545;
+    background-color: white;
+}

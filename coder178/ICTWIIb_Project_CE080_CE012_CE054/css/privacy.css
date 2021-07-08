@@ -1,0 +1,20 @@
+body{
+    background-image: url("https://i.etsystatic.com/7388389/r/il/e76865/1673914645/il_570xN.1673914645_dltq.jpg");
+    background-size: cover;
+}
+.heading{
+    font-size: 45px;
+    margin: 30px 200px 0px 200px;
+    color: white;
+    text-shadow: 2px 2px 4px rgb(0, 0, 71);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.contant{
+    font-size: 26px;
+    align-items: justify;
+    margin: 10px 200px 0px 200px;
+    text-align: justify;
+    font-family: serif;
+    color: rgb(10, 10, 10);
+}

@@ -1,0 +1,209 @@
+@import 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css';
+@import 'https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css';
+@import 'https://fonts.googleapis.com/css?family=Raleway:100,600';
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:300';
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri&display=swap');
+*{
+ box-sizing: border-box;
+  font-family: 'El Messiri', sans-serif , arial;
+  margin: 0;
+  padding: 0; 
+   
+}
+
+body{
+  background-color: #8c8282;
+}
+  
+.team-area{
+  height: 600px;
+    margin-bottom: 20px;
+}
+.section-title h2 {
+  text-transform: uppercase;
+}
+.section-title {
+  margin: 1% 0;
+}
+.section-title p {
+  text-transform: uppercase;
+  font-weight:bold;
+}
+.single-team{
+  left: 60%;
+  height: 400px;
+  padding-bottom: 70px;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  border: 10px 5px black ;
+  box-shadow:5px 5px 15px #000;
+  margin-top: 50px;
+}
+
+.team-img{
+  position: relative;
+  z-index: 5;
+  overflow: hidden;
+}
+.team-img img{
+  width: 100%;
+  height: 400px;
+  transition: .3s;
+}
+.single-team:hover .team-img img {
+  transform: scale(1.1);
+}
+.team-content {
+  height: 70px;
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  overflow: hidden;
+  bottom: 0;
+  transition: all .4s;
+  background: #115ebd;
+  z-index:5;
+}
+.single-team:hover .team-content{
+  height: 100px;
+}
+.team-info {
+  padding: 5px 20px 5px 20px;
+  transition: all .5s;
+}
+.single-team:hover .team-content{
+  background: #000;
+}
+.single-team .team-content .team-info h3 {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 20px;
+  margin: 5px;
+}
+.single-team:hover .team-info h3{
+  color: white;
+}
+.team-info p {
+  margin-top: 10px;
+  color: #fff;
+}
+.single-team-text p{
+  margin-top: 5px;
+}
+.team-text {
+  color: #fff;
+  padding: 0 10px 5px;
+}
+
+
+.contact{
+    text-align: center;
+    margin-top: 40px;
+} 
+.contact h3{
+    text-transform: capitalize;
+    font-size: 40px;
+    text-shadow: 3px 3px 5px #115ebd;
+}
+.contact a{
+    color:#115ebd;
+    font-size: 25px;
+}
+footer .footerpage{
+    background: rgb(17, 14, 14);
+    color: #fcfcfc;
+    font-family: "Roboto", sans-serif;
+    padding: 20px;
+}
+
+.name{
+  margin-left: -200px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-shadow: 2px 2px 4px blue;
+    font-size: 20px;
+}
+
+footer h4{
+    font-size: 20px;
+    text-decoration: 2px underline #c4c4c4;
+}
+
+  footer a {
+    color: #fcfcfc;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+    color: blue;
+  }
+  
+  footer .footer-container {
+    display: flex;
+    width: 900px;
+    margin: 0 auto;
+
+  }
+
+  footer ul {
+    list-style: none;
+    margin-top: 16px;
+    padding-left: 10px;
+  }
+  
+  footer ul li {
+    margin: 12px 8px;
+  }
+
+  strong{
+      font-size: 15px;
+  }
+
+  span{
+    color: dodgerblue;
+  }
+  
+  footer .footer-left {
+    padding-right: 100px;
+    border-right: 1px solid #c4c4c4;
+  }
+
+  footer .footer-right {
+    padding: 35px 75px;
+  }
+  
+  footer .social-icons {
+    margin-top: 16px;
+    font-size: 25px;
+  }
+
+  footer .social-icons i{
+    margin: 0 16px;
+    justify-content: space-between;
+  }
+  
+  footer .social-icons i:first-child {
+    margin-left: 0;
+  }
+  
+  footer .copyright{
+    background: black;
+    color: #fcfcfc;
+    font-family: "Roboto", sans-serif;
+    padding: 7px;
+    text-align: center;
+  }
+  section .thankyou .h1{
+    font-size: 30px;
+    margin-top: 100px;
+  }
+
+
+
+  
+  
+  
+  

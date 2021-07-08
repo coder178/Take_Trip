@@ -1,0 +1,61 @@
+*{
+    padding: 2px;
+    margin: 0;
+   font-family: Arial ; 
+}
+body{
+    background-image: url("../images/SOU.jpeg");
+    background-size: cover;
+}
+.form{
+    margin: 50px auto;
+    font-size: 20px;
+    color: white;
+    width: 550px;
+    background-color: rgb(0,0,0,0.5);
+    margin: 50px auto;
+    border: 10%;
+    padding: 20px; 
+    font-family: 'Courier New', Courier, monospace; 
+    border-radius: 9px;
+}
+.form-group{
+   line-height: 20px;
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 400px;
+    color: white;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.form-control{
+    line-height: 20px;
+    border-radius: 6px;
+    width: 100%;
+    
+}
+.form h4{
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(0,0,0,0.4);
+    border-radius: 4px;
+}
+.form .btn{
+    font-size: 25px;  
+    padding: 7px;
+    border-radius: 8px;
+    background-color: cadetblue; 
+    margin-left: 410px;
+    width: 100px; 
+    margin-top: -50px;
+}
+.form .btn:hover{
+    font-size: 25px;
+    background-color: red; 
+}
+.form label{
+    font-family: 'Bree Serif', serif;
+    font-size: 20px;
+    font-weight: 400;
+}

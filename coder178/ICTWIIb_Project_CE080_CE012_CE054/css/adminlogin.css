@@ -1,0 +1,73 @@
+*{
+    margin: 1;
+    padding: 1;
+}
+
+body{
+    height: 500px;
+    width: 400px;
+    background-size: cover; 
+    background-position: center;
+    background-image: url('../images/bcg.png');
+}
+
+.login{
+    
+    width: 350px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    color: white; 
+}
+
+.login :focus {
+    background-color:lightblue;
+  }
+
+.login h1{
+    /* font-family: 'Bungee Shade', cursive; */
+    font-family: 'Trade Winds', cursive;
+    font-size: 50px;
+    font-style: oblique;
+    text-align: center;
+    text-transform: capitalize;
+    margin: 40px 0;
+}
+
+.login p{
+    font-family: 'Satisfy', cursive;
+    font-size: 30px;
+    margin: 20px 0;
+    color: black;
+}
+
+.login input{
+    font-size: 20px;
+    width: 100%;
+    padding: 20px 20px;
+    border: 1px solid #000;
+    outline: #fff;
+    border-radius: 10px;
+}
+
+.login a{
+    color: darkblue;
+}
+
+button{
+    background-color:lightblue;
+    width: 200px;
+    padding: 15px 0;
+    margin: 20px 85px;
+    font-weight: bold;
+    border-radius: 15px;
+    border: 2px solid #000;
+    color: #000;
+    text-align: center;
+}
+
+button:hover{
+    background-color:floralwhite;
+    color: black;
+}

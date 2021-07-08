@@ -1,0 +1,83 @@
+body{
+    background-image: url("https://i2.wp.com/blog.visme.co/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-031.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+}
+
+.packages{
+    margin-right: 10px;
+    margin-left: 10px;
+    }
+    .packagebox{
+        margin-top: 150px;
+        margin-left: 160px;
+        position: relative;
+        height: 500px;
+        width: 80%;
+        /* background-image: url("https://www.freecodecamp.org/news/content/images/2021/06/w-qjCHPZbeXCQ-unsplash.jpg");
+        background-repeat: no-repeat;
+        background-size: cover; */
+        /* box-sizing: border-box;
+        border:2px solid black; */
+        overflow: hidden;
+        /* box-shadow: 10px 10px 7px #00000069; */
+        display: flex;
+        flex-direction: row;
+    }
+    .packagebox .boximage{
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 40px;
+    }
+    
+    .packagebox .boximage img{
+        box-shadow: 10px 10px 7px #00000069;
+        box-sizing: border-box;
+        border: 2.3px solid black;
+        border-radius: 10px;
+        height:450px ;
+        width: 380px;
+    }
+
+    .packagebox .packagecontent h2{
+        margin-top: 20px;
+        font-size: 40px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        color: black;
+        font-weight: 700;
+        /* text-shadow: 2px 2px 4px black; */
+        font-family: 'Abril Fatface', cursive;
+    }
+    .packagebox .packagecontent p{
+        padding: 5px;
+        text-align: justify;
+        font-size: 22px;
+        color: black;
+        font-weight: 700;
+    }
+    .packagebox .packagecontent h4{
+        margin-top: 0px;
+        font-size: 24px;
+        font-weight: 800;
+    }
+    .packagebox .packagecontent strong{
+        font-weight: 800;
+    }
+    .packagebox .packagecontent a{
+        color: blue;
+    }
+
+    .home .btn-home{
+        text-align: center;
+        float: bottom;
+        margin-left: 160vh;
+        margin-top: 20px;
+        font-size: 20px;
+        background-color: rgb(10, 169, 231);
+        border: 2px solid black;
+        color: black;
+        padding: 0.4rem 0.6rem;
+        border-radius: 10px;
+    }

@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+.btn{
+    border-radius: 50px;
+}
+
+
+.navbar{
+    background-color: #0000006e;
+    padding: 25px 0 !important;
+    font-size: 20px;
+}
+.navbar .navbar-brand{
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: -130px;
+}
+.navbar .nav-item .nav-link:hover{
+ color: #dc3545;
+}
+.navbar  .btns{
+    margin-left: 100px;
+   margin-right: -200px;
+}
+.navbar  .btn{
+    padding: 0.4rem 0.6rem;
+    font-size: 1rem;
+    color: white;
+    background-color: #dc3545;
+    font-weight: 500;
+    border: 2px solid #dc3545;
+    cursor: pointer;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+}
+.navbar .btn:hover{
+    color: #dc3545;
+    border: 2px solid #dc3545;
+    background-color: white;
+}
+.top-nav-collapse{
+    background-color: black;
+    padding: 0.75rem !important;
+}
+
+.landing-div{
+    background: white url("../images/bg-image.jpg") no-repeat scroll center;
+    height: 100vh;
+    background-size: cover;
+    color: white;
+}
+.landing-wrapper{
+    background-color:rgba(0,0,0,0.5);
+    height: 100%;
+}
+.landing-wrapper h1{
+    font-size: 80px;
+}
+
+.boxtags{
+    margin-top: 30px;
+    height: 240px;
+    width: 750px;
+    position: relative;
+    font-family: 'Roboto Slab', serif;
+    margin-top: -50px;
+    margin-left: 250px;
+
+}  
+.boxtags .box {
+    position: relative;
+    width: calc(250px - 50px);
+    height: calc(240px - 50px);
+    float: left;
+    margin: 15px;
+    background: #e6e2d9b3 ;
+    box-sizing: border-box;
+    overflow: hidden;
+    left: 5%;
+    border-radius: 10px;
+}
+.boxtags .box .icons{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #dc3545;
+    transition: 0.5s;
+    z-index: 1;
+}
+.boxtags .box:hover .icons{
+    top: 20px;
+    left: calc(50% - 30px);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.boxtags .box .icons .fas{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    transition: 0.5s;
+    color: white;
+}
+.boxtags .box .content{
+    position: absolute;
+    height: calc(100% - 80px);
+    top: 80px;
+    text-align: center;
+    padding: 6px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+.boxtags .box .content h3{
+    margin-top: 1px;
+}.boxtags .box .content p{
+    padding:10px;
+    padding-top: 0;
+}
+.boxcards{
+  
+    height: 250px;
+    width: 750px;
+    position: relative;
+    font-family: 'Roboto Slab', serif;
+    margin: 50px auto;  
+} 
+
+.tour-image{
+    border-radius: 10px;
+    box-shadow: 0 15px 15px black;
+}
+
+.dest-card{
+    border-radius: 10px !important;
+    color: white;
+    cursor: pointer;
+}
+.dest-card img{
+    height: 400px;
+    width:300px;
+}
+.dest-card-img{
+    border-radius: 10px !important;
+    position: relative;
+}
+.dest-card-title{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.dest-card-info h4{
+    margin-bottom: 0;
+}
+.dest-card-info{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: coral;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 0 50px 50px 0;
+    width: 45%;
+    transition: all 0.5s;
+    text-align: right;
+}
+.dest-card:hover .dest-card-info{
+    width: 60%;
+    background-color: orangered;
+}
+.col-md-4{
+    height: 600px;
+}
+.location-card{
+    box-shadow: 0 10px 10px black;
+    border-radius: 10px;
+}
+.location-img{
+    position: relative;
+}
+.location-price{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: rgba(0,250,0,0.5);
+    padding: 10px 15px;
+    color: white;
+    border-radius: 10px;
+}
+
+.main-footer{
+    background: white url("../images/footer-image.jpg") no-repeat scroll center;
+    background-size: cover;
+    color: white;
+}
+.footer-wrapper{
+    background-color: rgba(0,0,0,0.8);
+    height: 350px;
+}
+footer .col-md-3{
+    margin: 25px;
+}
+footer .copyright{
+    background: black;
+    color: #fcfcfc;
+    font-family: "Roboto", sans-serif;
+    padding: 7px;
+    text-align: center;
+  }
+  footer .d-flex{
+      margin-top:50px
+  }
+ 
+.landing-div .landing-wrapper .btn:hover{
+    color: #dc3545;
+    border: 2px solid #dc3545;
+    background-color: white;
+}
